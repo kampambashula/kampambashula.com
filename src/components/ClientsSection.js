@@ -20,6 +20,7 @@ const ClientsSection = () => (
     <Box
       sx={{
         display: "flex",
+        justifyContent: "center", // center items horizontally
         overflowX: "auto",
         gap: 3,
         px: 2,

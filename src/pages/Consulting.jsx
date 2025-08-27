@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Grid, Card, CardContent } from "@mui/material";
 import HeroSection from "../components/HeroSection";
-import consultingBg from "../assets/images/45.jpg";
+import consultingBg from "../assets/images/21.jpg";
 import ServiceCards from "../components/ServiceCards";
 
 export default function Consulting() {

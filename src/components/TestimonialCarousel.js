@@ -7,16 +7,20 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    name: "John Doe",
-    text: "Kampamba's insights transformed our business strategy.",
+    name: "Chisha Mubambe (HotFM)",
+    text: "Kampamba's understanding of economics is excellent.",
   },
   {
-    name: "Jane Smith",
+    name: "Luchi (Radio Phoenix)",
     text: "Professional, insightful and highly knowledgeable.",
   },
   {
-    name: "Ahmed Ali",
-    text: "A true expert in economic forecasting and software development.",
+    name: "Chaka Nyathando aka Pompi",
+    text: "An expert in economics with depth and insight",
+  },
+  {
+    name: "Innocent Ndenda",
+    text: "A true expert in economic doing us proud in Zambia",
   },
 ];
 

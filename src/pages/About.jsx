@@ -24,13 +24,13 @@ const About = () => {
             About Kampamba Shula
           </Typography>
           <Typography variant="body1" paragraph>
-            I am passionate about applying data-driven strategies to drive economic development and sustainable growth. With solid experience in software development, I build tools and solutions that integrate data analytics with policy making and business innovation.
+            Kampamba Shula is a Zambian economist, mathematician, and software developer whose work bridges economic theory, machine learning and policy advocacy. With experience in research, financial advisory, and statistical analysis, Kampamba has influenced national policy on gold reserves, sovereign wealth funds and planning frameworks. Known for pioneering ideas such as copper-anchored derivatives, a Tzedaka-based negative income tax system and critiques of oversimplified economic models. Beyond policy, Kampamba  develops AI-driven solutions like policy simulation and climate prediction systems. A frequent media commentator, Recognized as a thought leader advancing innovative, evidence-based approaches to Zambia’s development
           </Typography>
           <Typography variant="body1" paragraph>
-            My work spans several sectors including mining, agriculture, energy, and real estate investment — all aimed at fostering economic resilience and diversification in Zambia and beyond. I believe in leveraging technology and economic insights to empower communities and decision-makers.
+            Work spans several sectors including mining, agriculture, energy, and real estate investment — all aimed at fostering economic resilience and diversification in Zambia and beyond. Leveraging technology and economic insights to empower communities and decision-makers.
           </Typography>
           <Typography variant="body1" paragraph>
-            Outside of my professional work, I enjoy exploring emerging technologies, contributing to open-source projects, and mentoring young professionals interested in economics and data science.
+            Outside of my professional work, Kampamba enjoys exploring emerging technologies, contributing to open-source projects, and mentoring young professionals interested in economics and data science.
           </Typography>
           <Divider sx={{ mb: 6 }} />
 

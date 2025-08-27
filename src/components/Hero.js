@@ -3,9 +3,16 @@ import React, { useState, useEffect } from "react";
 import { Box, Typography, Button } from "@mui/material";
 
 const taglines = [
-  "Natural communicator with the courage to face the shadows and lead others toward transformation.",
-  "Transforming Ideas into Scalable Solutions for group systems, institutions and networks",
-  "Expanding minds, connecting cultures and explaining complex ideas simply",
+  "VISIONARY AUTHOR & SPEAKER",
+  "STRATEGIC FUTURIST",
+  "SYSTEMS THINKER & ECONOMIC ANALYST",
+  "ECONOMIC POLICY EXPERT",
+  "TECH & DATA VISIONARY",
+  "GLOBAL POLICY INFLUENCER",
+  "AI & MACHINE LEARNING INNOVATOR",
+  "INFLUENCER IN DIGITAL TRANSFORMATION",
+  "STRATEGIC ECONOMIC ADVISOR",
+  "GLOBAL ECONOMIC COMMENTATOR",
 ];
 
 const HeroSection = () => {
@@ -18,8 +25,8 @@ const HeroSection = () => {
       setTimeout(() => {
         setCurrentTagline((prev) => (prev + 1) % taglines.length);
         setFade(true);
-      }, 500); // fade out duration
-    }, 8000); // time before switching taglines
+      }, 300); // fade out duration
+    }, 5000); // time before switching taglines
     return () => clearInterval(interval);
   }, []);
 
@@ -43,14 +50,10 @@ const HeroSection = () => {
     >
       {/* Content */}
       <Box sx={{ maxWidth: "800px", px: 3 }}>
-        <Typography variant="h2" fontWeight="bold" gutterBottom>
-          Kampamba Shula
-        </Typography>
-        <Typography variant="h5" sx={{ mb: 2 }}>
-          Innovator • Creator • Author • Speaker
-        </Typography>
+        
+        
         <Typography
-          variant="h6"
+          variant="h2"
           sx={{
             mb: 4,
             fontStyle: "italic",
@@ -60,6 +63,9 @@ const HeroSection = () => {
           }}
         >
           {taglines[currentTagline]}
+        </Typography>
+        <Typography variant="h5" sx={{ mb: 2 }}>
+          Kampamba Shula elevates thinking across industries, inspiring leaders and organizations to innovate in a changing economic world
         </Typography>
 
         <Box sx={{ display: "flex", gap: 2, justifyContent: "center" }}>

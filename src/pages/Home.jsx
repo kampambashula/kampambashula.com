@@ -32,6 +32,10 @@ const Home = () => (
   <>
     {/* Full screen hero outside container */}
     <HeroSection />
+    <Divider sx={{ mb: 6 }} />
+
+    <ClientsSection />
+      
 
     {/* All other content inside container */}
     <SiteLayout>
@@ -45,9 +49,9 @@ const Home = () => (
         imgSrc="/images/consulting/two.jpg"
         alt="Kampamba Shula"
         title="MEET KAMPAMBA"
-        text="Welcome! I’m Kampamba Shula — an economist, data scientist, software developer and passionate problem-solver.
-              I specialize in turning complex challenges into clear, actionable insights that empower communities, businesses, and institutions to thrive.
-              Whether through research, speaking, or consulting, my mission is to harness data and innovation for meaningful impact."
+        text="Kampamba is a  passionate problem-solver.
+              Turning complex challenges into clear, actionable insights that empower communities, businesses, and institutions to thrive.
+              Whether through research, speaking, or consulting, the mission is to harness data and innovation for meaningful impact."
       />
 
       {/* Insert animated stats right after Meet Kampamba */}
@@ -58,8 +62,7 @@ const Home = () => (
       <CarouselSection title="Pillars" items={carouselItems} />
       <Divider sx={{ mb: 6 }} />
             
-      <ClientsSection />
-      <Divider sx={{ mb: 6 }} />
+      
 
       <TestimonialCarousel />
       <MediaMentions />

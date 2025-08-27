@@ -15,7 +15,7 @@ const CallToActionBanner = () => (
     }}
   >
     <Typography variant="h4" gutterBottom>
-      Ready to Transform Your Business?
+      Ready to Transform Your Thinking?
     </Typography>
     <Typography variant="h6" sx={{ mb: 3 }}>
       Book a personalized session and let’s make impactful change together.
